@@ -6,6 +6,7 @@ require 'active_support/all'
 # Load Sinatra Framework (with AR)
 require 'sinatra'
 require 'sinatra/activerecord'
+require 'sinatra/json'
 
 require 'pry'
 
@@ -28,3 +29,4 @@ require APP_ROOT.join('config', 'database')
 
 # Load the routes / actions
 require APP_ROOT.join('app', 'actions')
+

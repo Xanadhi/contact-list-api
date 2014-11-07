@@ -1,0 +1,165 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: font-family: 'Roboto', sans-serif;;
+}
+
+#side-nav-style {
+  display: block;
+  position: absolute;
+  margin-top: 175px;
+  margin-left: -50px;
+  width: 100px;
+  padding-right: 80px;
+  background: #33ADFF;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#side-nav-style a {
+  color: #FFFFFF;
+}
+
+#main-container {
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-top {
+  margin-top: 3em;
+}
+
+.space-bottom {
+  margin-bottom: 3em;
+}
+
+
+#display-contacts {
+  display: block;
+  position: relative;
+  width: 500px;
+  margin: auto;
+  padding: 25px 10px;
+  background: #00E6B8;
+  border-radius:10px;
+  z-index: 2;
+}
+
+.contact-card {
+  padding: 5px;
+  margin: 7px 9px;
+  background: #FFFFFF;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+
+input:first-child {
+  margin-top: 9px;
+}
+
+input:last-child {
+  margin-bottom: 9px;
+}
+
+#display-form {
+  position: absolute;
+  top: -3px;
+  display: none;
+  width: 500px;
+  margin: auto;
+  padding: 15px 10px;
+  background: #AD5CFF;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#display-single {
+  position: absolute;
+  top: -3px;
+  display: none;
+  width: 500px;
+  margin: auto;
+  padding: 15px 10px;
+  background: #FF5050;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.display-single-card {
+  background: #FFFFFF;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.display-single-card p {
+  margin-bottom: 0.2em;
+}
+
+.display-single-card img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+
+.display-search {
+  position: absolute;
+  margin-top: 231px;
+  width: 280px;
+  height: 65px;
+  background: #33D6FF;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+
+}
+
+.display-search form {
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  width: 185px;
+}
+
+#search-form {
+  position: relative;
+  margin: 0px 10px !important;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+#display-search-results {
+  position: absolute;
+  top: -3px;
+  display: none;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 15px 10px;
+  background: #E6E600;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.edit-me {
+  margin-right: 10px;
+}
+
+#display-edit-form {
+  position: absolute;
+  top: -3px;
+  display: none;
+  width: 500px;
+  margin: auto;
+  padding: 15px 10px;
+  background: #FF9966;
+  border-radius: 10px;
+  z-index: 2;
+}

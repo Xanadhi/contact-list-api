@@ -1,1 +1,84 @@
-<h1>Home Page</h1>
+<div id="main-container">
+
+<div id="side-nav-style">
+<ul class="side-nav">
+  <li><a href="#" id="home-nav">Home</a></li>
+  <li><a href="#" id="form-nav">Make</a></li>
+  <li><a href="#" id="find-nav">Find</a></li>
+  <li><a href="http://xanadhi.github.io" target="_blank">About</a></li>
+</ul>
+</div>
+
+<div class="display-search">
+  <form id='search-form'>
+    <input type="text" name="query" placeholder="Who are you looking for?">
+  </form>
+</div>
+
+<div class="row">
+  <div class="small-12 columns small-centered">
+<h1>Peep!</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns small-centered">
+Who you gonna call?<br>
+  </div>
+</div>
+
+
+<div class="row space-top space-bottom">
+  <div class="small-12 columns">
+
+<div class="skin">
+
+    <div id="display-contacts">
+    </div>
+
+    <div id="display-form" class="contact-form">
+      <form action="/contacts" method="post" id="contacts-form">
+        <input type="text" name="first_name" placeholder="First name">
+        <input type="text" name="last_name" placeholder="Last name">
+        <input type="text" name="relationship" placeholder="Relationship to you">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="street" placeholder="Street">
+        <input type="text" name="city" placeholder="City">
+        <input type="text" name="province" placeholder="Province">
+        <input type="text" name="postalcode" placeholder="Post code">
+        <input type="text" name="profile_image" placeholder="Link to a profile picture">
+        <input type="submit" value="Submit" class="button tiny">
+      </form>
+    </div>
+
+    <div id="display-edit-form" class="edit-form">
+      <form action="/contacts" method="patch" id="edits-form">
+        <input type="text" name="first_name" placeholder="First name">
+        <input type="text" name="last_name" placeholder="Last name">
+        <input type="text" name="relationship" placeholder="Relationship to you">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="street" placeholder="Street">
+        <input type="text" name="city" placeholder="City">
+        <input type="text" name="province" placeholder="Province">
+        <input type="text" name="postalcode" placeholder="Post code">
+        <input type="text" name="profile_image" placeholder="Link to a profile picture">
+        <input type="submit" value="Submit" class="button tiny">
+      </form>
+    </div>
+
+
+    <div id="display-single">
+    </div>
+
+    <div id="display-search-results">
+    </div>
+
+
+</div>
+
+  </div>
+</div>
+
+
+
+</div>

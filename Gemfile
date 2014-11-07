@@ -16,3 +16,7 @@ group :development, :test do
   gem 'shotgun'
   gem 'sqlite3'
 end
+
+
+gem 'factory_girl'
+gem 'faker'
