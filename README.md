@@ -1,10 +1,8 @@
-Sinatra
+Peeople Phonebook
 =============
 
-Brought to you by Lighthouse Labs
+This is a phonebook app built in Sinatra using HTML5, CSS3, jQuery and PostgreSQL, which communicates via AJAX to get our contacts! This was an incremental assignment that culminated in the single-page non-refreshing app that you see here.
 
-## Getting Started
+Visit me at: http://peep-phonebook.herokuapp.com/
 
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+(this is mostly for my own sake: `shotgun -p 3000 -o 0.0.0.0`)
